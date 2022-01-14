@@ -19,7 +19,7 @@ It expects the source and target identifier as XPath.
     ${target}=   Replace String      ${target}        "  \"
   
     ${js}        Get File              DragAndDrop.js
-    ${result}    Execute Javascript    ${js}; return DragNDrop(${source}, ${target});```
+    ${result}    Execute Javascript    ${js}; return DragNDrop(${source}, ${target});
 
 ----
 
